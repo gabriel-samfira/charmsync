@@ -1,0 +1,19 @@
+{
+    "name": "nova-hyperv",
+    "scm": "git",
+    "url": "https://github.com/cloudbase/nova-hyperv-charm",
+    "revision": "6bf9415ddf8a734b250183839982aeb0f6aabba4",
+    "upstream": "lp:~gabriel-samfira/active-directory",
+    "dependencies": [
+        {
+            "url": "https://github.com/cloudbase/juju-powershell-modules.git",
+            "resources": [
+                "CharmHelpers"
+            ],
+            "destination": "hooks/Modules",
+            "scm": "git",
+            "name": "juju-powershell-modules",
+            "revision": "1fae7240ef29154b666fdac8c85a8fc47e90a356"
+        }
+    ]
+}
